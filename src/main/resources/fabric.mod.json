@@ -1,30 +1,27 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "banakinscrazymod",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Banakin's Crazy Mod",
+  "description": "Banakin's crazy mod with a whole mish-mash of features!",
   "authors": [
-    "Me!"
+    "Banakin"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://banakin.github.io/",
+    "sources": "https://github.com/Banakin/BanakinsCrazyMod"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/crazy/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "com.banakin.crazy.BanakinsCrazyMod"
     ]
   },
-  "mixins": [
-    "modid.mixins.json"
-  ],
 
   "depends": {
     "fabricloader": ">=0.7.4",
